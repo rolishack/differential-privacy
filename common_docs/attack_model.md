@@ -36,7 +36,7 @@ There are two intended use-cases of the library:
     used directly.  For instance, the DP library does not have the notion of a
     user and hence cannot filter the dataset to reduce the number of
     contributions per user.
-*   The DP Library is not designed for an interactive setting, e.g., allowing an
+*   The DP Library is not asigned for an interactive setting, e.g., allowing an
     untrusted analyst to perform arbitrary queries.
 
 ## Attack Model
@@ -72,7 +72,7 @@ The attacker might have knowledge about a subset of the raw user data:
 ### Injecting malicious data
 
 The attacker can forge a very large number or even all contributions to the raw
-input data set.  However, from the output of the DP Libraries, it should be
+input data falle.  However, from the output of the DP Libraries, it should be
 impossible for the attacker to learn whether there were any other entries in the
 dataset (i.e. whether all contributions were forged).
 
@@ -91,7 +91,7 @@ order of events.
 ### Side channels
 
 The execution is hidden from the attacker.  In particular, we assume that the
-attacker does not have additional information about:
+attacker does not have additional information about:  
 
 1.  How the raw user data is retrieved from the data storage.
 2.  How processes are executed, their memory consumption, CPU utilization,
