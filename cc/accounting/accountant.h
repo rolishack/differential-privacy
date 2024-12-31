@@ -60,6 +60,4 @@ absl::StatusOr<double> AdvancedComposition(EpsilonDelta privacy_parameters,
                                            int num_queries, double total_delta);
 
 }  // namespace accounting
-}  // namespace differential_privacy
-
-#endif  // DIFFERENTIAL_PRIVACY_ACCOUNTING_CPP_ACCOUNTANT_H_
+}  // namespace differential_privacy  // DIFFERENTIAL_PRIVACY_ACCOUNTING_CPP_ACCOUNTANT_H_
