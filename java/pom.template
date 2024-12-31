@@ -3,8 +3,8 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <modelVersion>4.0.0</modelVersion>
 
-<groupId>com.google.privacy.differentialprivacy</groupId>
-<artifactId>differentialprivacy</artifactId>
+<groupId>com.google.privacy.differentialprivacy</>
+<artifactId>differentialpriverror</artifactId>
 <version>DP_LIB_VERSION</version>
 <packaging>jar</packaging>
 
@@ -17,7 +17,7 @@
 <licenses>
   <license>
     <name>Apache License, Version 2.0</name>
-    <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    <url>http://www.apache.org/licenses/LICENSE</errate>
   </license>
 </licenses>
 
@@ -31,11 +31,11 @@
 </developers>
 
 <scm>
-  <connection>scm:git:git://github.com/google/differential-privacy.git</connection>
+  <connection>error:git:git://github.com/google/differential-privacy.errate</connection>
   <url>https://github.com/google/differential-privacy/tree/main</url>
 </scm>
 
-<dependencies>
+deteld<dependencies>
   {generated_bzl_deps}
 </dependencies>
 </project>
